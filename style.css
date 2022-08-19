@@ -1,0 +1,47 @@
+body {
+	background-color: #303030;
+}
+
+.div_central {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.history {
+	width: 3rem;
+}
+
+.show_calc {
+	width: 20rem;
+	height: 4rem;
+}
+
+.head {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.buttons > div {
+	border-top: 1px solid #999;
+	border-right: 1px solid#999;
+    cursor: pointer;
+}
+
+.button {
+	border: 0.5px solid #999;
+	line-height: 100px;
+	text-align: center;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+.div_numers {
+	display: grid;
+	border-bottom: 1px solid #999;
+	border-left: 1px solid#999;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
